@@ -4,75 +4,126 @@ html ,body{
     padding: 0px;
 }
        
-        #login{
-            border: 2px solid #A8A8AA;
-            border-radius: 20px;
-            padding: 20px;
-            box-shadow: 3px 3px 3px #4D4D4F;
-            background-color: #DBD5C9;
-            filter: invert();
-            
-        }
-        .container-fluid{
-          margin:0px;
-          padding: 0px;
-          
-        }
-        .jumbotron{
-            padding : 0px;
-            margin: 0px;
-            height: 100px;
-        }
-        .head{
-          font-family: 'Monoton', cursive;
-          font-size: 60px;
-          filter: saturate(3);
-        }
-        #logo{
-          width: 500px;
-          filter: saturate(3);
-        }
+#login{
+    border: 2px solid #A8A8AA;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px #4D4D4F;
+    background-color: #DBD5C9;
+    filter: invert();
 
-        @media only screen 
-        and (min-width : 320px) 
-        {
-         #logo{
-             display: none;
-         }
-         #welcome{
-           display:none;
-         }
-         .head{
-          font-size: 35px;
-          
-        }
+}
+
+.container-fluid{
+    margin:0px;
+    padding: 0px;
+     
+}
+
+.jumbotron{
+    padding : 0px;
+    margin: 0px;
+    height: 100px;
+}
+
+.head{
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+    filter: saturate(3);
+}
+
+#logo{
+    width: 500px;
+    filter: saturate(3);
+}
+		
+#mail_error{
+    font-size: 80%;
+    color: orangered;
+    filter: invert();
+}
+#s{
+	color: red;
+}
+#o{
+	color: yellow;
+}
+#c{
+	color: green;
+}
+#i{
+	color: white;
+}
+#a{
+	color: gray;
+}
+#l{
+	color: red;
+}
+#h{
+	color: lime;
+}
+#e{
+	color: tan;
+}
+#a{
+	color: yellow;
+}
+#v{
+	color: turquoise;
+}
+#e{
+	color: magenta;
+}
+#n{
+	color: orange;
+}
+
+
+@media only screen 
+and (min-width : 320px){
+    
+	#logo{
+        display: none;
+    }
+	
+    #welcome{
+        display:none;
+    }
+	
+    .head{
+        font-size: 35px;
+    }
         
+}
 
-      }
-      @media only screen 
-        and (min-width : 768px) 
-         {
+
+@media only screen 
+and (min-width : 768px){
           
-            #logo{
-             display: block;
-         }
-         #welcome{
-           display: block;
-         }
-         .head{
-          font-size: 60px;
-        }
+    #logo{
+        display: block;
+    }
+	
+    #welcome{
+        display: block;
+    }
+	
+    .head{
+        font-size: 60px;
+    }
+}
 
-      }
-      @media only screen 
-        and (min-width : 1224px) {
-            #logo{
-             display: block;
-         }
-         #welcome{
-           display: block;
-         }
 
-        }
+@media only screen 
+and (min-width : 1224px){
+    #logo{
+        display: block;
+    }
+	
+    #welcome{
+        display: block;
+    }
+}
           
         
